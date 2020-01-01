@@ -71,3 +71,35 @@ public class Main {
 		}
 	}
 }
+//2.数字特征值
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number;
+		int i;
+		int temp;
+		int result;
+		Scanner in = new Scanner (System.in);
+		number=in.nextInt();
+		i=0;
+		result=0;
+		while(number!=0)
+		{
+			temp=number%10;
+			i=i+1;
+			number=number/10;
+			if(temp%2==0 && i%2==0 )//temp和i都是偶数
+			{
+				result=(int)(result+1*Math.pow(2.0,(double)(i-1)));
+			}
+			else if(temp%2==1 && i%2==1)//temp和i都是奇数
+			{
+				result=(int)(result+1*Math.pow(2.0,(double)(i-1)));
+			}
+		}
+
+		System.out.println(result);
+	}
+}
