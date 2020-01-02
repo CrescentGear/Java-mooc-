@@ -59,6 +59,10 @@ public class Main {
 			System.out.print("fu ");
 			number=0-number;
 		}
+		else if(number==0)
+		{
+			System.out.print("ling");
+		}
 		number2=number;
 		temp=number/10;
 		count=1;
