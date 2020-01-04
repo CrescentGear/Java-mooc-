@@ -3,3 +3,5 @@ for each循环
   {
     //循环次数为数组的长度，每次循环会把数组中对应的元素取出赋值给临时变量。
   }
+split()函数用法
+见https://blog.csdn.net/qq_41668547/article/details/80536499
