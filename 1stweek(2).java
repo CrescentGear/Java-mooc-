@@ -59,7 +59,7 @@ class Fraction  {
 		int i;
 		i=2;
 		temp=1;
-		while(i<fenzi || i<fenmu)
+		while(i<fenmu)
 		{
 			if(fenzi%i==0 && fenmu%i==0)
 			{
